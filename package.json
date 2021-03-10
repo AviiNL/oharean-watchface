@@ -1,0 +1,32 @@
+{
+  "name": "oharean",
+  "author": "Avii",
+  "version": "1.0.0",
+  "keywords": ["pebble-watchface"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "O'Harean",
+    "uuid": "789514d0-6586-44e6-a074-b16b3f883886",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": {
+      "TimeZone": 0
+    },
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "configurable"
+    ]
+  }
+}
